@@ -135,7 +135,7 @@ GET ny_restau_final/_mapping
 ```
 
 
-### Requetes
+# Requetes
 
 - Q1: List all the neighborhoods in New York.
 ```
@@ -381,3 +381,17 @@ GET ny_restau_final/_search
   }
 }
 ```
+
+# visualisations
+
+![Q1, Q2](visualizations/Q1_Q2.png)
+
+![Q3, Q4](visualizations/Q3_Q4.png)
+
+![Q5, Q6](visualizations/Q5_Q6.png)
+
+![Q7, Q8](visualizations/Q7_Q8.png)
+
+![Q9, Q10](visualizations/Q9_Q10.png)
+
+![Q11](visualizations/Q11.png)
