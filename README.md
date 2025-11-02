@@ -135,7 +135,7 @@ GET ny_restau_final/_mapping
 ```
 
 
-# Requetes
+# Requêtes
 
 - Q1: List all the neighborhoods in New York.
 ```
@@ -382,7 +382,7 @@ GET ny_restau_final/_search
 }
 ```
 
-# visualisations
+# Visualisations
 
 Voici les visualisations obtenues à l’aide de Kibana, à partir de l'index ny_restau.
 Ces visualisations permettent d’analyser la répartition des restaurants, les types de cuisines, les notes attribuées, ainsi que les violations sanitaires observées à New York.
