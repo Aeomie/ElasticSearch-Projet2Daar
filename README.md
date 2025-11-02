@@ -440,4 +440,4 @@ Les principales infractions sont les codes 10F (14,04 %), 08A (10,71 %), 06D (6,
 ![Q11](visualizations/Q11.png)
 
 - Q11 : Le graphique en barres met en évidence les chaînes de restauration les plus présentes à New York selon le nombre d’enregistrements dans la base.
-Dunkin’ arrive largement en tête, suivie de Subway et Starbucks.
+Dunkin arrive largement en tête, suivie de Subway et Starbucks.
