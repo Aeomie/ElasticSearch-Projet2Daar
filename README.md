@@ -443,7 +443,8 @@ Le résultat montre que plusieurs inspections ont été enregistrées pour ce m�
 
 ![Q9, Q10](visualizations/Q9_Q10.png)
 
-- Q9 : Ce tableau met en évidence la violation 02B, correspondant à “Hot food item not held at or above 140°F”, c’est-à-dire les plats chauds conservés en dessous de la température réglementaire.
+- Q9 : Ce tableau met en évidence la violation 02B, correspondant à “hot food item not held at or above 140°F”, c’est-à-dire les plats chauds conservés en dessous de la température réglementaire. Il illustre les cuisines où il y a le plus d’occurrences de cette infraction, avec la cuisine **Chinoise** en premier, suivie par la cuisine **Américaine**.
+
 
 - Q10 : Le diagramme en anneau illustre la répartition des codes de violation les plus fréquents dans les inspections sanitaires.
 Les principales infractions sont les codes 10F (14,04 %), 08A (10,71 %), 06D (6,75 %), 04L (6,58 %) et 02G (5,99 %).Ces 5 violations représentent ensemble 44.06% du total des violations, le reste étant regroupé dans la catégorie 'Other' (55.94%)
