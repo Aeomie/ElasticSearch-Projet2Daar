@@ -387,7 +387,7 @@ GET ny_restau_final/_search
 
 # Visualisations
 
-Voici les visualisations obtenues à l’aide de Kibana, à partir de l'index ny_restau.
+Voici les visualisations obtenues à l’aide de Kibana, à partir de l'index ny_restau et ny_restau_final.
 Ces visualisations permettent d’analyser la répartition des restaurants, les types de cuisines, les notes attribuées, ainsi que les violations sanitaires observées à New York.
 
 <br>
