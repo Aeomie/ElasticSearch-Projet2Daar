@@ -135,6 +135,7 @@ GET ny_restau_final/_mapping
 ```
 
 
+
 # Requêtes
 
 - Q1: List all the neighborhoods in New York.
@@ -152,6 +153,8 @@ GET ny_restau_final/_search
   }
 }
 ```
+[Voir la réponse à la question 1](./answer/answer1.md)
+
 - Q2: Which neighborhood has the most restaurants?
 ```
 GET ny_restau_final/_search
@@ -170,6 +173,8 @@ GET ny_restau_final/_search
   }
 }
 ```
+[Voir la réponse à la question 2](./answer/answer2.md)
+
 - Q3: What does the violation code "04N" correspond to?
 ```
 GET ny_restau_final/_search
@@ -184,6 +189,7 @@ GET ny_restau_final/_search
 }
 
 ```
+[Voir la réponse à la question 3](./answer/answer3.md)
 
 - Q4: Where are the restaurants (name, address, neighborhood) that have a grade of A?
 ```
@@ -198,6 +204,9 @@ GET ny_restau_final/_search
   }
 }
 ```
+[Voir la réponse à la question 4](./answer/answer4.md)
+
+
 - Q5: What is the most popular cuisine? And by neighborhood?
 ```
 GET ny_restau_final/_search
@@ -236,6 +245,8 @@ GET ny_restau_final/_search
   }
 }
 ```
+[Voir la réponse à la question 5](./answer/answer5.md)
+
 - Q6: What is the date of the last inspection?
 ```
 GET ny_restau_final/_search
@@ -250,6 +261,8 @@ GET ny_restau_final/_search
   }
 }
 ```
+[Voir la réponse à la question 6](./answer/answer6.md)
+
 - Q7: Provide a list of Chinese restaurants with an A grade in Brooklyn.
 
 ```
@@ -280,6 +293,8 @@ GET ny_restau_final/_search
   }
 }
 ```
+[Voir la réponse à la question 7](./answer/answer7.md)
+
 - Q8: What is the address of the restaurant LADUREE?
 
 ```
@@ -293,6 +308,7 @@ GET ny_restau_final/_search
   }
 }
 ```
+[Voir la réponse à la question 8](./answer/answer8.md)
 
 - Q9: What cuisine is most affected by the violation "Hot food item not held at or above 140º F"?
 
@@ -318,6 +334,7 @@ GET ny_restau_final/_search
   }
 }
 ```
+[Voir la réponse à la question 9](./answer/answer9.md)
 
 - Q10: What are the most common violations (Top 5)?
 ```
@@ -337,6 +354,8 @@ GET ny_restau_final/_search
   }
 }
 ```
+[Voir la réponse à la question 10](./answer/answer10.md)
+
 - Q11: What is the most popular restaurant chain?
 ```
 
@@ -381,6 +400,8 @@ GET ny_restau_final/_search
   }
 }
 ```
+[Voir la réponse à la question 11](./answer/answer11.md)
+
 
 # Visualisations
 
