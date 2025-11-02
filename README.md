@@ -386,11 +386,46 @@ GET ny_restau_final/_search
 
 ![Q1, Q2](visualizations/Q1_Q2.png)
 
+- Q1 :
+Cette carte affiche la répartition géographique des restaurants à travers les différents quartiers de New York.
+On observe une forte concentration d’établissements à Manhattan, suivie de Brooklyn et Queens, ce qui correspond aux zones urbaines les plus denses.
+
+- Q2 :
+Le diagramme circulaire illustre la part de chaque quartier dans le total des restaurants.
+Manhattan est en tête avec environ 36,9 %, suivi de Brooklyn (27 %) et Queens (23 %).
+Cela montre que Manhattan regroupe la majorité des restaurants de la ville.
+
 ![Q3, Q4](visualizations/Q3_Q4.png)
+
+- Q3 :
+Cette table affiche les enregistrements associés au code de violation “04N”.
+Ce code correspond à “Filth flies or food/refuse/sewage associated with (FRSA) flies or other nuisance pests in establishment’s food and/or non-food areas. FRSA flies include house flies, blow flies, bottle flies, flesh flies, drain flies, Phorid flies and fruit flies.”, c’est-à-dire la présence de mouches ou de saletés dans la zone de préparation.
+On observe que ce type de violation touche principalement les restaurants de type American, Coffee/Tea et Chinese.
+
+- Q4 :
+Le graphique en anneaux montre la répartition des notes A attribuées aux restaurants selon le quartier.
+Manhattan compte environ 26,17 % des notes A, suivi de Brooklyn (26,09 %) et Queens (24 %).
 
 ![Q5, Q6](visualizations/Q5_Q6.png)
 
+- Q5 :
+Le graphique en barres présente les types de cuisine les plus représentés selon les arrondissements de New York.
+La cuisine américaine domine nettement à Manhattan, tandis que la cuisine chinoise est particulièrement présente à Brooklyn et Queens.
+
+- Q6 :
+Ce graphique linéaire illustre l’évolution du nombre d’inspections sanitaires entre 2010 et 2025.
+On observe une activité très faible avant 2018, suivie d’une forte augmentation à partir de 2020, où le nombre d’inspections dépasse fréquemment les 6 000 enregistrements par période.
+Cette hausse des contrôles sanitaires est possiblement liée à la pandémie (COVID-19).
+
 ![Q7, Q8](visualizations/Q7_Q8.png)
+
+- Q7 :
+Ce tableau recense les restaurants chinois situés à Brooklyn ayant obtenu la note A lors des inspections.
+Parmi les établissements les plus fréquemment inspectés et bien notés, on trouve TASTE OF CHINA, HARDEE, NO. 1 CHINESE RESTAURANT, CHINA DRAGON et MASTER WOK.
+  
+- Q8 :
+Ce tableau affiche les informations détaillées du restaurant Ladurée, situé à 864 Madison Avenue, Manhattan (10021).
+Le résultat montre que plusieurs inspections ont été enregistrées pour ce même établissement (4 au total).
 
 ![Q9, Q10](visualizations/Q9_Q10.png)
 
