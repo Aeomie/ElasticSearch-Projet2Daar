@@ -429,4 +429,12 @@ Le résultat montre que plusieurs inspections ont été enregistrées pour ce m�
 
 ![Q9, Q10](visualizations/Q9_Q10.png)
 
+- Q9 : Ce tableau met en évidence la violation 02B, correspondant à “Hot food item not held at or above 140°F”, c’est-à-dire les plats chauds conservés en dessous de la température réglementaire.
+
+- Q10 : Le diagramme en anneau illustre la répartition des codes de violation les plus fréquents dans les inspections sanitaires.
+Les principales infractions sont les codes 10F (14,04 %), 08A (10,71 %), 06D (6,75 %), 04L (6,58 %) et 02G (5,99 %).
+
 ![Q11](visualizations/Q11.png)
+
+- Q11 : Le graphique en barres met en évidence les chaînes de restauration les plus présentes à New York selon le nombre d’enregistrements dans la base.
+Dunkin’ arrive largement en tête, suivie de Subway et Starbucks.
