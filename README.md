@@ -1,6 +1,8 @@
 
 # Prérequis
 
+Le fichier à importer doit être nommé : `ny_restau`
+
 Pour exécuter les requêtes suivantes, vous devez avoir un cluster Elasticsearch en cours d'exécution avec l'index `ny_restau_final` chargé avec les données des restaurants de New York.
 
 Pour avoir 'index `ny_restau_final`, vous pouvez suivre les étapes suivantes :
