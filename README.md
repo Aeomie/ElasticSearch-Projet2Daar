@@ -52,7 +52,13 @@ PUT ny_restau_final
         "type": "long"
       },
       "DBA": {
-        "type": "text"
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+          }
+        }
       },
       "GRADE": {
         "type": "keyword"
@@ -358,42 +364,16 @@ GET ny_restau_final/_search
 
 - Q11: What is the most popular restaurant chain?
 ```
-
 GET ny_restau_final/_search
 {
   "size":0,
   "aggs": {
     "Mostpopular_Restau": {
       "terms": {
-        "field": "CAMIS",
+        "field": "DBA.keyword",
         "size": 1,
         "order": {
           "_count": "desc"
-        }
-      }
-    }
-  }
-}
-
-# Q11 with name
-GET ny_restau_final/_search
-{
-  "size": 0,
-  "aggs": {
-    "Mostpopular_Restau": {
-      "terms": {
-        "field": "CAMIS",
-        "size": 1,
-        "order": {
-          "_count": "desc"
-        }
-      },
-      "aggs": {
-        "restaurant_name": {
-          "top_hits": {
-            "_source": ["DBA"],
-            "size": 1
-          }
         }
       }
     }
@@ -408,6 +388,8 @@ GET ny_restau_final/_search
 Voici les visualisations obtenues à l’aide de Kibana, à partir de l'index ny_restau.
 Ces visualisations permettent d’analyser la répartition des restaurants, les types de cuisines, les notes attribuées, ainsi que les violations sanitaires observées à New York.
 
+<br>
+
 ![Q1, Q2](visualizations/Q1_Q2.png)
 
 - Q1 :
@@ -418,6 +400,8 @@ On observe une forte concentration d’établissements à Manhattan, suivie de B
 Le diagramme circulaire illustre la part de chaque quartier dans le total des restaurants.
 Manhattan est en tête avec environ 36,9 %, suivi de Brooklyn (27 %) et Queens (23 %).
 Cela montre que Manhattan regroupe la majorité des restaurants de la ville.
+
+<br>
 
 ![Q3, Q4](visualizations/Q3_Q4.png)
 
@@ -430,6 +414,8 @@ On observe que ce type de violation touche principalement les restaurants de typ
 Le graphique en anneaux montre la répartition des notes A attribuées aux restaurants selon le quartier.
 Manhattan compte environ 26,17 % des notes A, suivi de Brooklyn (26,09 %) et Queens (24 %).
 
+<br>
+
 ![Q5, Q6](visualizations/Q5_Q6.png)
 
 - Q5 :
@@ -441,6 +427,8 @@ Ce graphique linéaire illustre l’évolution du nombre d’inspections sanitai
 On observe une activité très faible avant 2018, suivie d’une forte augmentation à partir de 2020, où le nombre d’inspections dépasse fréquemment les 6 000 enregistrements par période.
 Cette hausse des contrôles sanitaires est possiblement liée à la pandémie (COVID-19).
 
+<br>
+
 ![Q7, Q8](visualizations/Q7_Q8.png)
 
 - Q7 :
@@ -451,12 +439,17 @@ Parmi les établissements les plus fréquemment inspectés et bien notés, on tr
 Ce tableau affiche les informations détaillées du restaurant Ladurée, situé à 864 Madison Avenue, Manhattan (10021).
 Le résultat montre que plusieurs inspections ont été enregistrées pour ce même établissement (4 au total).
 
+<br>
+
 ![Q9, Q10](visualizations/Q9_Q10.png)
 
 - Q9 : Ce tableau met en évidence la violation 02B, correspondant à “Hot food item not held at or above 140°F”, c’est-à-dire les plats chauds conservés en dessous de la température réglementaire.
 
 - Q10 : Le diagramme en anneau illustre la répartition des codes de violation les plus fréquents dans les inspections sanitaires.
-Les principales infractions sont les codes 10F (14,04 %), 08A (10,71 %), 06D (6,75 %), 04L (6,58 %) et 02G (5,99 %).
+Les principales infractions sont les codes 10F (14,04 %), 08A (10,71 %), 06D (6,75 %), 04L (6,58 %) et 02G (5,99 %).Ces 5 violations représentent ensemble 44.06% du total des violations, le reste étant regroupé dans la catégorie 'Other' (55.94%)
+
+
+<br>
 
 ![Q11](visualizations/Q11.png)
 
