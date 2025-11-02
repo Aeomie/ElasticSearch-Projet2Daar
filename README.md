@@ -144,6 +144,8 @@ GET ny_restau_final/_mapping
 
 # Requêtes
 
+**Pour les requêtes qui sont super longues, dans les fichiers de réponses je prends seulement les 10 premières réponses.**
+
 - Q1: List all the neighborhoods in New York.
 ```
 GET ny_restau_final/_search
